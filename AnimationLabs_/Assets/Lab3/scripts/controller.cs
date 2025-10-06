@@ -4,6 +4,7 @@ using UnityEngine.AI;
 public class controller : MonoBehaviour
 {
     public GameObject target;
+    public GameObject target_;
     private NavMeshAgent agent;
     bool isWalking;
     private Animator Anim; 
@@ -12,6 +13,7 @@ public class controller : MonoBehaviour
     void Start()
     {
         isWalking = true;
+        rotateTowardsTarget();
         agent= GetComponent<NavMeshAgent>();
         Anim = GetComponent<Animator>();
     }
@@ -40,4 +42,10 @@ public class controller : MonoBehaviour
             Anim.SetTrigger("walk");
         }
     }
+
+    void rotateTowardsTarget()
+    {
+        transform.rotation=target_.transform.rotation;
+    }
 }
+ 
