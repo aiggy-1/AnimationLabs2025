@@ -636,6 +636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4669217283414258}
+  - component: {fileID: 2396051789162677947}
   m_Layer: 0
   m_Name: hand_l
   m_TagString: Untagged
@@ -664,6 +665,27 @@ Transform:
   - {fileID: 4522680154061334}
   m_Father: {fileID: 4497214263533694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2396051789162677947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227096717869718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca45bb53dc94f478358a1b6475653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DitzelGames.FastIK.FastIKFabric
+  ACTarget: {fileID: 0}
+  Attraction: {fileID: 0}
+  AttractionDistance: 0
+  ChainLength: 2
+  Target: {fileID: 0}
+  Pole: {fileID: 0}
+  Iterations: 10
+  Delta: 0.001
+  SnapBackStrength: 1
 --- !u!1 &1249828619436710
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +982,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319517528997712}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 9ce6002518e821e43b4f97c76700fbac, type: 3}
   m_Controller: {fileID: 9100000, guid: 081111fd1834f42469e07a9a2ce295c6, type: 2}
   m_CullingMode: 1

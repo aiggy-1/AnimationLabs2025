@@ -1,0 +1,844 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ayana" at "2025-11-10T13:45:02.1122085Z"
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-10T13:45:02Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/ayana/OneDrive/Documents/GitHub/AnimationLabs2025/AnimationLabs_
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+65377
+-licensingIpc
+LicenseClient-ayana
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ayana/OneDrive/Documents/GitHub/AnimationLabs2025/AnimationLabs_
+C:/Users/ayana/OneDrive/Documents/GitHub/AnimationLabs2025/AnimationLabs_
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42756]  Target information:
+
+Player connection [42756]  * "[IP] 10.190.1.33 [Port] 0 [Flags] 2 [Guid] 2380292268 [EditorId] 2380292268 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42756] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [42756] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32020, path: "C:/Users/ayana/SchoolSoftware/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              76bdb17b5ea445a59e2dfbe4c4dfdf9c
+  Correlation Id:          52991af8164dd7949978d8bba830f736
+  External correlation Id: 3880219147227172643
+  Machine Id:              cleDMvXY9O+45m6I22BHXt+mVGw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ayana" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ayana-notifications" at "2025-11-10T13:45:02.1797498Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ayana/OneDrive/Documents/GitHub/AnimationLabs2025/AnimationLabs_/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:          NVIDIA
+    VRAM:            7957 MB
+    App VRAM Budget: 7189 MB
+    Driver:          32.0.15.7700
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002152 seconds.
+- Loaded All Assemblies, in  0.464 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.362 seconds
+Domain Reload Profiling: 823ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (169ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574232338638-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.088 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.874 seconds
+Domain Reload Profiling: 1958ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (708ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (240ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6253 unused Assets / (5.7 MB). Loaded Objects now: 6947.
+Memory consumption went from 146.8 MB to 141.1 MB.
+Total: 11.932800 ms (FindLiveObjects: 2.065600 ms CreateObjectMapping: 0.709900 ms MarkObjects: 6.838500 ms  DeleteObjects: 2.316700 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.851 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1709ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (861ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6251 unused Assets / (5.1 MB). Loaded Objects now: 6962.
+Memory consumption went from 154.3 MB to 149.2 MB.
+Total: 8.245500 ms (FindLiveObjects: 0.513200 ms CreateObjectMapping: 0.328000 ms MarkObjects: 5.101600 ms  DeleteObjects: 2.300800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1216207.832526 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/BRP Post Process.prefab
+  artifactKey: Guid(ba73728ec352f8742b6e0e2e3c60287b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/BRP Post Process.prefab using Guid(ba73728ec352f8742b6e0e2e3c60287b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcdfb621010b39ec78407e6e86a5ce7c') in 0.2841527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Street Lamp 2.prefab
+  artifactKey: Guid(0a679c383db39694f99eeb0559dba77d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Street Lamp 2.prefab using Guid(0a679c383db39694f99eeb0559dba77d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ede3a92818690fc8a6bc00b6f5c732ba') in 0.0682872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Manhole Covers 1.fbx
+  artifactKey: Guid(5fc35af2190f8ab439a39253953e0ad2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Manhole Covers 1.fbx using Guid(5fc35af2190f8ab439a39253953e0ad2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d2781850e952614f57f36d6c7a3c7ba') in 0.0866878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Road Fence Door.fbx
+  artifactKey: Guid(5a5d957fa90a17f45b8ec06fc1c5fafb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Road Fence Door.fbx using Guid(5a5d957fa90a17f45b8ec06fc1c5fafb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1bc7f0e4fbab831133866a964858810') in 0.0311122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Ground Mark/Ground Markings 7.prefab
+  artifactKey: Guid(5bcd3ca7c67d37f4b893f8294a37a6bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Ground Mark/Ground Markings 7.prefab using Guid(5bcd3ca7c67d37f4b893f8294a37a6bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4259393eabcbb0680188c880f977cfd') in 0.0302842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/Scripts/Inspector/KiiValuePair.cs
+  artifactKey: Guid(4fb884e421204606b2ed10869643a30e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/Scripts/Inspector/KiiValuePair.cs using Guid(4fb884e421204606b2ed10869643a30e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa9da2dfd0c0f8fb4c1704fc4d5f740b') in 0.0277046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Building/Building 10.prefab
+  artifactKey: Guid(9cfe989745c4eb4428bbb0966dc87749) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Building/Building 10.prefab using Guid(9cfe989745c4eb4428bbb0966dc87749) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0dbf42b6bce6172a97a794e9a7785cf') in 0.0415112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Fruit Crate.prefab
+  artifactKey: Guid(adaf4f3a4c78814479d37818433d8a59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Fruit Crate.prefab using Guid(adaf4f3a4c78814479d37818433d8a59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41a0d1c6497d7b18fd9aaa55431248c5') in 0.0339715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/Scripts/RotatableObject.cs
+  artifactKey: Guid(3d99999487eb4ef780bccce267108ee5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/Scripts/RotatableObject.cs using Guid(3d99999487eb4ef780bccce267108ee5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9870b1968909c7d0fb98969153392ac9') in 0.0241744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Sunshade 1.fbx
+  artifactKey: Guid(50a32c9145f94fb4da22c5e4db25f64a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Sunshade 1.fbx using Guid(50a32c9145f94fb4da22c5e4db25f64a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa9d503bc240ded73983873317ff9251') in 0.0415561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/Scripts/Setup/FriesManagerBRP.cs
+  artifactKey: Guid(8f46b455363e54846b197e049cfa2d53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/Scripts/Setup/FriesManagerBRP.cs using Guid(8f46b455363e54846b197e049cfa2d53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75f3750b87568fff9d50a1a7e2f0d7c1') in 0.025965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Public Chair.fbx
+  artifactKey: Guid(46bcbb326127815459c910eb0b83f59a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Public Chair.fbx using Guid(46bcbb326127815459c910eb0b83f59a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb4ac78ad1514070bc1dba2efce4fb8f') in 0.0523691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Plants
+  artifactKey: Guid(0cb6acfe4dfbae544af6d1f7ea47a254) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Plants using Guid(0cb6acfe4dfbae544af6d1f7ea47a254) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8f3bf615de350cf9510ac77f9824325') in 0.0252806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Mailbox 2.fbx
+  artifactKey: Guid(76335c3029a642c4aacd71a161ef4a0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Mailbox 2.fbx using Guid(76335c3029a642c4aacd71a161ef4a0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e22b97180a52cdbe93c80813d7b486fd') in 0.0386387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Mailbox 3.fbx
+  artifactKey: Guid(e7bdd71ee64e41945a7bf659fa11bf8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Mailbox 3.fbx using Guid(e7bdd71ee64e41945a7bf659fa11bf8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e58bf8e45502d6df6d2c3aa70fa98f8f') in 0.0319695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Building/Building 8.prefab
+  artifactKey: Guid(28d4ecd6bbb8cdc47b5f91f4ef9c5b93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Building/Building 8.prefab using Guid(28d4ecd6bbb8cdc47b5f91f4ef9c5b93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '749f9f0e8373f312b038438879b4b9bd') in 0.0396565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Wooden Bench 2.prefab
+  artifactKey: Guid(b38f5b590b91d4e48a126d722896fd60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Wooden Bench 2.prefab using Guid(b38f5b590b91d4e48a126d722896fd60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e316cfe115caec38a7d344c7047979d') in 0.032727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs
+  artifactKey: Guid(17122df5d886488282946ce3a872762c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs using Guid(17122df5d886488282946ce3a872762c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3ae4911244ab317e6fbb464b340775b') in 0.0248761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Stone Fence 1.fbx
+  artifactKey: Guid(6289555808f2e3849996ef17a15bec0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Stone Fence 1.fbx using Guid(6289555808f2e3849996ef17a15bec0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8faa15b7d6c2eafe72225b0eef373f1c') in 0.0320134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Barrier/Small Barrier.prefab
+  artifactKey: Guid(e62fd9a12fab29f4db9056721ad539ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Barrier/Small Barrier.prefab using Guid(e62fd9a12fab29f4db9056721ad539ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9c99820a27273e3e40c93bc50bf2da4') in 0.0306815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Fire Hydrant.prefab
+  artifactKey: Guid(5215971f383b3354b93f853e9b9f4abb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Fire Hydrant.prefab using Guid(5215971f383b3354b93f853e9b9f4abb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd02378d082944adcbd53dc991dfcae69') in 0.0440243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Road Signs/Signage 1.prefab
+  artifactKey: Guid(bf23ddc16a577cc408105872661ce9a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Road Signs/Signage 1.prefab using Guid(bf23ddc16a577cc408105872661ce9a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15ea07a31a444f6db41661fe2e41e027') in 0.0348665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Ground Mark/Ground Markings 3.prefab
+  artifactKey: Guid(4d29c640f7836344eb4498c868d0f556) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Ground Mark/Ground Markings 3.prefab using Guid(4d29c640f7836344eb4498c868d0f556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fe7a400ca5b560880eacb257fcd6834') in 0.0368327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/BRP Sample Scene.unity
+  artifactKey: Guid(ab87d11da6d96f843bfe3ecf6b8a89ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/BRP Sample Scene.unity using Guid(ab87d11da6d96f843bfe3ecf6b8a89ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18b5697764ddc484c866e70cf4a1cd93') in 0.039568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Red Car.fbx
+  artifactKey: Guid(295f0cc65e58dbb43884a9e76adfdd8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Red Car.fbx using Guid(295f0cc65e58dbb43884a9e76adfdd8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3104037472465ccdcf319283e230c346') in 0.0557611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/BRP Post Process Profile.asset
+  artifactKey: Guid(d327ffdcbeebdfa43bbcc48a99cd74ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/BRP Post Process Profile.asset using Guid(d327ffdcbeebdfa43bbcc48a99cd74ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a265034f8733bcb1f8b41de3e50223e') in 0.0351188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Road 1.fbx
+  artifactKey: Guid(75ed50d25f1f407458e9d48c36228c09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Road 1.fbx using Guid(75ed50d25f1f407458e9d48c36228c09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ea32c4acdf05d0a110cafd0e81a99de') in 0.038945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Telephone Booth.fbx
+  artifactKey: Guid(9a04e4dd78f8cb341a99ad37f299b31d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Telephone Booth.fbx using Guid(9a04e4dd78f8cb341a99ad37f299b31d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '628a418b689384064e0483d5d6d30060') in 0.0503436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/City Scene.prefab
+  artifactKey: Guid(cb5ba684c46e0134eb12f49fda57341b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/City Scene.prefab using Guid(cb5ba684c46e0134eb12f49fda57341b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b06c79a7b79702822b02f103fe4963b') in 0.2391353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5794
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Road Unit/Road 5.prefab
+  artifactKey: Guid(971e45d085d5bc04793a00a998e2b554) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Road Unit/Road 5.prefab using Guid(971e45d085d5bc04793a00a998e2b554) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd10cbb4ecc045647ccf600f82fed0567') in 0.0313247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Trash/Dumpster 1.prefab
+  artifactKey: Guid(b57e3303588ecba44b9330b25e31adde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Trash/Dumpster 1.prefab using Guid(b57e3303588ecba44b9330b25e31adde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f22b71581a120bf54f341e8cb391f42') in 0.044325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/House 8.fbx
+  artifactKey: Guid(db8108ff0d22d784a9897b0cdd6163ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/House 8.fbx using Guid(db8108ff0d22d784a9897b0cdd6163ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59c127410cc925288cb089c78e9e3702') in 0.0770945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Building/Building 5.prefab
+  artifactKey: Guid(6295269d0ad8ac841adb0a6db45463c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Building/Building 5.prefab using Guid(6295269d0ad8ac841adb0a6db45463c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc96969b3c96aa040a6f350d7f7415f1') in 0.0396055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Vehicles/Blue Car.prefab
+  artifactKey: Guid(15f26c55b72bb724da45119747d2ad3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Vehicles/Blue Car.prefab using Guid(15f26c55b72bb724da45119747d2ad3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c48b554736608ccec715d6f92c8f9cb') in 0.0265921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Road Unit
+  artifactKey: Guid(909310a2b4ff8cf42b21e78a95233a0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Road Unit using Guid(909310a2b4ff8cf42b21e78a95233a0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b52b7609827b8e86d7473e36cf81442') in 0.0161332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Ground Mark/Ground Markings 5.prefab
+  artifactKey: Guid(f04fd87fb70a3464aba07aaf95cc0899) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Ground Mark/Ground Markings 5.prefab using Guid(f04fd87fb70a3464aba07aaf95cc0899) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1dcb015d03dcfa95de9276b100acceb') in 0.0354126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Plants/Tree 3.prefab
+  artifactKey: Guid(5ebb16597b4973443ae86364307ce9ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Plants/Tree 3.prefab using Guid(5ebb16597b4973443ae86364307ce9ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2698cdb9bfe22036456e013172e5b6a4') in 0.0436089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fries and Seagull/City 03/Materials/Skybox.mat
+  artifactKey: Guid(42b54f36cbc434c4d8ef6620e121113a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Materials/Skybox.mat using Guid(42b54f36cbc434c4d8ef6620e121113a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8aa50ac5280370617e92c6031fb06f8') in 0.0314726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Traffic Light 6.fbx
+  artifactKey: Guid(36df261b24b68434db28f53324e19b94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Traffic Light 6.fbx using Guid(36df261b24b68434db28f53324e19b94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a891b042c48395b554b0f5108a7c22e9') in 0.054197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Wooden Bench 1.fbx
+  artifactKey: Guid(8a5f06c04939be548b41cf1a9e89ef14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Wooden Bench 1.fbx using Guid(8a5f06c04939be548b41cf1a9e89ef14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7658248e06090e3a311c2c0b227856c7') in 0.0530145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Traffic Light 2.fbx
+  artifactKey: Guid(03c137088cbf89e44814e8a37cc9bb76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Traffic Light 2.fbx using Guid(03c137088cbf89e44814e8a37cc9bb76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e50dcb7645e513ca6309982e638af022') in 0.040871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Tree 2.fbx
+  artifactKey: Guid(801d8af11f7433e499906e2d61075ecc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Tree 2.fbx using Guid(801d8af11f7433e499906e2d61075ecc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8d0794d0ac213e7138d6577024c2a4d') in 0.0435201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Traffic Light 5.prefab
+  artifactKey: Guid(df0e4a41b0de5e9478d6033617126614) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Traffic Light 5.prefab using Guid(df0e4a41b0de5e9478d6033617126614) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ed22d871e052b602551ee534c5c86bf') in 0.0379847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Road Signs
+  artifactKey: Guid(6a8081d315e20aa44bd266cd64968b7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Road Signs using Guid(6a8081d315e20aa44bd266cd64968b7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7f9a45d075b756964f2476c58d3cbdf') in 0.0222818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Traffic Light 3.fbx
+  artifactKey: Guid(4a86e4ff02c23a6449502f0894f2368e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Traffic Light 3.fbx using Guid(4a86e4ff02c23a6449502f0894f2368e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca7b89a34919227ca5c378caddd76143') in 0.0392059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Trash Can 2.fbx
+  artifactKey: Guid(2aeea5ee69740014aafde64a93efa61b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Trash Can 2.fbx using Guid(2aeea5ee69740014aafde64a93efa61b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dbf0b447534679e9d13089bc57ffb4b') in 0.1256782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Fire Hydrant.fbx
+  artifactKey: Guid(f2702e298cb536b498dfece3a8a89d47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Fire Hydrant.fbx using Guid(f2702e298cb536b498dfece3a8a89d47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28855177303d54346730d41e096e2352') in 0.0579692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LinkMover.cs
+  artifactKey: Guid(8b39a96551389ca49bc751022e39dc14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/LinkMover.cs using Guid(8b39a96551389ca49bc751022e39dc14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83fbb2b3a432cf6873a020f18f91e283') in 0.0354714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Fence/Road Fence 3.prefab
+  artifactKey: Guid(30912fc217de250468c366d2c8bc9441) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Fence/Road Fence 3.prefab using Guid(30912fc217de250468c366d2c8bc9441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c615ab02f905dffbe94c692c8fc66845') in 0.0307707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Public Chair.prefab
+  artifactKey: Guid(bdfe562a489d7af43a0cfa474f8e430b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Public Utility/Public Chair.prefab using Guid(bdfe562a489d7af43a0cfa474f8e430b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90a29c144dc097ee874c0607eeb3369f') in 0.0448926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/Scripts/Inspector/IgnoreInInspectorAttribute.cs
+  artifactKey: Guid(98291bb42b504c82aec7632c669be24c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/Scripts/Inspector/IgnoreInInspectorAttribute.cs using Guid(98291bb42b504c82aec7632c669be24c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b1ee24f5e39a3d133e3db4c4b6895db') in 0.029809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Trash
+  artifactKey: Guid(dc233f1e8dc84cf4c9f46a3d048fd021) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Trash using Guid(dc233f1e8dc84cf4c9f46a3d048fd021) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '198e80a4812d646fb707c48ec3fe5834') in 0.0279809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Street Lamp 1.prefab
+  artifactKey: Guid(84c7d06bab11d5d4cb50a7de9558474b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Street Lamp 1.prefab using Guid(84c7d06bab11d5d4cb50a7de9558474b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32c3c276105a05a8fac31ea461c1dabd') in 0.0317151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Sunshade/Sunshade 1.prefab
+  artifactKey: Guid(077a20f70df4ce44d8ad52080ec615f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Sunshade/Sunshade 1.prefab using Guid(077a20f70df4ce44d8ad52080ec615f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bcf1b70e3d5b49691b92d6ecf0dd458') in 0.0384252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Zebra Crossing.fbx
+  artifactKey: Guid(61638f75cb2d883449011496af090a63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Zebra Crossing.fbx using Guid(61638f75cb2d883449011496af090a63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96e31866eff94ec49d2ee0c041312f1e') in 0.0376209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Traffic Cones.fbx
+  artifactKey: Guid(64eaef5b6d4070b4291b321700ec2641) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Traffic Cones.fbx using Guid(64eaef5b6d4070b4291b321700ec2641) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c9104ac74a66a6c7047e32fe8c2430') in 0.0386045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/URP Post Process Profile.asset
+  artifactKey: Guid(f341bd8f800061c4796c964155e32452) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/URP Post Process Profile.asset using Guid(f341bd8f800061c4796c964155e32452) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73732bf14f65f23e44f2b71c21108e1d') in 0.0306403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Speed Bumps.fbx
+  artifactKey: Guid(91d738c63a98f4444a2388931636a75d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Speed Bumps.fbx using Guid(91d738c63a98f4444a2388931636a75d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57bc48e947e6dbb259434de9ac6c9e88') in 0.0424482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Barricade 3.fbx
+  artifactKey: Guid(d6acac2ae56d3a84f9470eda878b8e51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Barricade 3.fbx using Guid(d6acac2ae56d3a84f9470eda878b8e51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91e5c7631752ecfccdba297d9cb7cf6c') in 0.0398434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Sunshade
+  artifactKey: Guid(ced2be7929cc9ee44a91fbeed39bdbda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Sunshade using Guid(ced2be7929cc9ee44a91fbeed39bdbda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd356cdbb7ae855c0050bc2781d952916') in 0.0394947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Traffic Light 2.prefab
+  artifactKey: Guid(b225c85ffff4c1a449fdb1636e63ccc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Light Sources/Traffic Light 2.prefab using Guid(b225c85ffff4c1a449fdb1636e63ccc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd680c4f02e8332a90da1c734582c0a2b') in 0.0368841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Fence
+  artifactKey: Guid(191cfd3562a46654a9af6e38c6c8c440) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Fence using Guid(191cfd3562a46654a9af6e38c6c8c440) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dc50b9900de2955c7abc451ee56fa69') in 0.0237858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Road Signs/Signage 3.prefab
+  artifactKey: Guid(296cdcf2939da3e4f9a28a9304efbe45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Road Signs/Signage 3.prefab using Guid(296cdcf2939da3e4f9a28a9304efbe45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b61989d028eb4bbf176987504acad96e') in 0.0321347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Road 7.fbx
+  artifactKey: Guid(7674ca49617ab244a952faebfdc39b10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Road 7.fbx using Guid(7674ca49617ab244a952faebfdc39b10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c88251c7e138cf1b11dd6b2076a934b') in 0.0452028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Prefab Group/Tree Group.prefab
+  artifactKey: Guid(38eb95f2e286a4d4685c8d011f5d073a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Prefab Group/Tree Group.prefab using Guid(38eb95f2e286a4d4685c8d011f5d073a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c84af5a9be87c0fe199b07f594de33e') in 0.0368644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Trash/Trash Can 1.prefab
+  artifactKey: Guid(4d07156327fe069469aa2e629b7bd531) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Trash/Trash Can 1.prefab using Guid(4d07156327fe069469aa2e629b7bd531) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05b6dee851b7a7275d4597e6432b6ff5') in 0.0513649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Road Signs/Signage 2.prefab
+  artifactKey: Guid(56d5b0f37ee119e459448c52b03c65f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Road Signs/Signage 2.prefab using Guid(56d5b0f37ee119e459448c52b03c65f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e538338ffb6aff0475807024eda9d0c') in 0.0312344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Signage 1.fbx
+  artifactKey: Guid(d54ac1bd7636a044da059562021c1f0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Signage 1.fbx using Guid(d54ac1bd7636a044da059562021c1f0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '464b098533dcb707824664a125669dd3') in 0.0590163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fries and Seagull/City 03/Scene Props/Scripts/GlowLight.cs
+  artifactKey: Guid(7811b77c5eea46338780e837a3dc5aab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Scene Props/Scripts/GlowLight.cs using Guid(7811b77c5eea46338780e837a3dc5aab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e1c9183862822f15d000850d103e9c5') in 0.0220649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fries and Seagull/City 03/Models/Ground Markings 1.fbx
+  artifactKey: Guid(b6ff114b69b3f2746b620bc1d4d5ddd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Models/Ground Markings 1.fbx using Guid(b6ff114b69b3f2746b620bc1d4d5ddd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93df9c456745925b680fab8d3a11fabc') in 0.0378368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Fence/Road Fence 1.prefab
+  artifactKey: Guid(8a0f53613d652124aa449c4eb095e61c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Fence/Road Fence 1.prefab using Guid(8a0f53613d652124aa449c4eb095e61c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c33a91a360053755c73e7a9ee45b04d') in 0.0365091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fries and Seagull/City 03/Prefabs/Vehicles/Gray Car.prefab
+  artifactKey: Guid(db85732ec3820934399d5d7c2d6ec5b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fries and Seagull/City 03/Prefabs/Vehicles/Gray Car.prefab using Guid(db85732ec3820934399d5d7c2d6ec5b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b18a80b7548a8d2208aef32b703a4a84') in 0.0343568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

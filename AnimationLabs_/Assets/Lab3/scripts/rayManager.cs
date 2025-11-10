@@ -3,10 +3,14 @@ using UnityEngine;
 public class rayManager : MonoBehaviour
 {
     [SerializeField] GameObject target;
-    private Camera cam; 
+    private Camera cam;
+    public Transform tar;
+    private UnityEngine.AI.NavMeshAgent agent;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+
         cam = Camera.main; 
     }
 
@@ -19,7 +23,8 @@ public class rayManager : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                target.transform.position = hit.point;
+               tar.transform.position = hit.point;
+                agent.destination=tar.transform.position;
             }
         }
     }
