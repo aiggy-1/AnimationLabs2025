@@ -32,7 +32,7 @@ public class triggerCheck : MonoBehaviour
             swap();
 
             if (c.gameObject.CompareTag("Player")){
-                Debug.Log("Ah! An enemy");
+                Debug.Log("Ah! The player!!");
             }
         }
     }
